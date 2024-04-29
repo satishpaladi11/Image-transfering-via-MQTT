@@ -22,3 +22,5 @@ client.connect(broker,1883,60)
 #Change your "photo.jpg" to your location of image
 client.publish("TOPIC",convertImageToBase64("photo.jpg"))
 
+#This is my code
+
